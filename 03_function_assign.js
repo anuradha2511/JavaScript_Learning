@@ -1,15 +1,15 @@
- console.log("========== No arguments =========== ");
+ console.log("========== 1) No arguments =========== ");
 function display(){
     console.log("Hello Friends");
 }
 display();
-console.log("Welcome to JavaScript");
-function show(){
 
+function show(){
+    console.log("Welcome to JavaScript");
 }
 show();
 
-console.log("========== concat ==========");
+console.log("========== 2)concat ==========");
 function addition( firstName, lastName){
 console.log(firstName + lastName);
 }
@@ -27,7 +27,7 @@ function swap_values(cricketer, actress){
 swap_values("Virat","Anushka");
 swap_values("1000","2000");
 
-console.log("======== Addition of three values =======");
+console.log("======== 4) Addition of three values =======");
 function add_three_numbers(arg1, arg2, arg3){
 console.log(arg1 +arg2 +arg3 );
 }
