@@ -41,4 +41,7 @@ switch (months) {
         break;
     }
 }
-monthsName(3, 11);
+monthsName(1);
+monthsName(6);
+monthsName(12);
+

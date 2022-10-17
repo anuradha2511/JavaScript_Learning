@@ -57,3 +57,16 @@ for (let index = 2; index < 50; index++) {
    }
    
 }
+console.log("*******************************************");
+var countOdd = 0;
+for (let count =1; count < 40; count++) {
+   if (count%2!=0) {
+      console.log(count);
+      countOdd = countOdd +1;
+      if (countOdd==11) {
+         break;
+         
+      }
+   }
+   
+}
