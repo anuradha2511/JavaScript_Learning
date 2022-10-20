@@ -17,7 +17,7 @@ var vowels = function (myString) {
 }
 vowels("Good Morning It Champ");
 
-console.log("----------------------- 2. Count vowels from the given string -----------------------");
+console.log("----------------------------- 2. Count vowels from the given string -----------------------");
 // 2. Write a function to count vowels from the given string. Ex --> `I love JavaScript`
 function string() {
     var sentence = `I Love JavaScript`;
@@ -25,10 +25,10 @@ function string() {
     var countVowels = 0;
     for (let index = 0; index < strLowerCase.length; index++) {
         var char = strLowerCase.charAt(index);
-        if (char=="a" || char=="e" || char=="i" || char=="o" || char=="u") {
-    
+        if (char == "a" || char == "e" || char == "i" || char == "o" || char == "u") {
+
             countVowels = countVowels + 1;
-            
+
 
         }
     }
@@ -36,7 +36,7 @@ function string() {
 }
 string();
 
-console.log("------------------------ 3. Sum all numbers from 1 to 10 ----------------------");
+console.log("----------------------------- 3. Sum all numbers from 1 to 10 ----------------------");
 // 3. Write a function expression to sum all numbers from 1 to 10
 var addition = function () {
     var add = 0;
@@ -48,7 +48,7 @@ var addition = function () {
 }
 addition();
 
-console.log("----------------------- 4. Sum of square numbers from 1 to 5 ------------------");
+console.log("----------------------------- 4. Sum of square numbers from 1 to 5 ------------------");
 // 4. Write a function to get the sum of square numbers from 1 to 5
 function sum() {
     var mult = 0;
@@ -68,11 +68,11 @@ function evenPositionedChars(myString) {
     for (let index = 0; index < myString.length; index++) {
         var char = myString.charAt(index);
         if (index % 2 == 0 && char != " ") {
-    result = result + char;
-           
+            result = result + char;
+
         }
-  }
-  console.log(result);
+    }
+    console.log(result);
 }
 evenPositionedChars(`Hard work always pays back`);
 evenPositionedChars(`Soon I will Angular IT Champ`);
@@ -81,7 +81,7 @@ evenPositionedChars(`Soon I will Angular IT Champ`);
 
 // Count the total number vowels using includes() for string → “Good Morning IT Champ”
 var countVowels = function (myString) {
-   // console.log("Count the total number vowels using includes() for string → “Good Morning IT Champ”");
+    // console.log("Count the total number vowels using includes() for string → “Good Morning IT Champ”");
     //var myString = "Good Morning IT Champ";
     var vowelsLoweCase = "aeiou";
     var vowelUpperCase = "AEIOU";
@@ -94,7 +94,8 @@ var countVowels = function (myString) {
             vowelsCount = vowelsCount + 1;
         }
     }
-   // console.log(`Total Vowels count : ${vowelsCount}`);
+    // console.log(`Total Vowels count : ${vowelsCount}`);
+
 }
 countVowels("Good Morning IT Champ");
 // console.log("============================");
@@ -111,3 +112,33 @@ countVowels("Good Morning IT Champ");
 // }
 // evenPositionedChars("Hard work always pays back");
 
+
+console.log("************************** Odd positioned number **************************");
+// Q. For the given string1 ---> "Hard work always pays back", string2 --> "Soon I will be Angular IT Champ" Write a functions as mentioned below.
+function oddPositionedChars(myString) {
+    var res = " ";
+    for (let index = 1; index < myString.length; index++) {
+        var char = myString.charAt(index);
+        if (char % 2 != 0 && char != " ") {
+            res = res + char;
+
+        }
+    }
+    console.log(res);
+}
+oddPositionedChars("Hard work always pays back");
+oddPositionedChars("Soon I will be Angular IT Champ");
+
+console.log("**************************** sum of Cube numbers from 1 to 6 *************************************");
+// Q.Write a function to get the sum of square numbers from 1 to 5
+function cubeNumbers() {
+    var cube = 1;
+    var addition = 0;
+    for (let index = 0; index <= 6; index++) {
+         cube = index * index * index;
+       addition = addition + cube;
+        
+    }
+    console.log(addition);
+}
+cubeNumbers();

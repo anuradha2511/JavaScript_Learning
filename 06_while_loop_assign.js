@@ -51,7 +51,7 @@ var count = 5; // initialization
 var res = " ";
 while (count <= 50) { // condition
     var res = res + " " + count;
-    count = count + 5; // update
+    count = count + 5; // update (increment / decrement)
 }
 console.log(res);
 
@@ -76,3 +76,22 @@ while (number > 10) {
     result = result + " " + number;
 }
 console.log(result);
+
+console.log("===================== table of 4 (using do while loop) =================================");
+// Q.8 WAP to print table of 4 like --> 4 8 12 ...... 40 
+var count = 4; // initialization
+var res = " ";
+do {
+    res = res + " " + count; // using space for characters like abcd --> a b c d / 1234 --> 1 2 3 4
+
+    count = count + 4; // update (increment / decrement)
+} while (count<=40); // condition
+console.log(res);
+
+console.log("=============================== odd numbers from first 10 =====================");
+// Q.9 WAP to print odd numbers
+var count = 1; // initialization
+do {
+    count = count + 2;
+    console.log(count);
+} while (count%2 != 0 && count < 10); // condition
