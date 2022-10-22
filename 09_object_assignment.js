@@ -19,25 +19,39 @@ return teach;
 
 }
 console.log(teacher);
+
 console.log("--------------------------------------------------------------");
 let vTeach = teacher.degrees.teaching();
 console.log(vTeach);
+
 console.log("---------------------------------------------------------------");
 console.log(`Update new property City : "Sangali"`);
 teacher.city="Sangali";
 console.log(teacher);
+
 console.log("----------------------------------------------------------------");
 console.log(`Modify existing property fullName`);
 teacher.fullName= "Vashali Ravindra Bamankar";
-console.log(teacher);
+console.table(teacher);
+
 console.log("-----------------------------------------------------------------");
 console.log(`Total certificates before delete`);
 console.log(teacher.degrees.certificates);
+
 console.log("------------------------------------------------------------------");
 console.log(`Total certificate after delete`);
 delete teacher.degrees.certificates.certificate1;
-console.log(teacher.degrees.certificates);
+console.table(teacher.degrees.certificates);
+
 console.log("------------------------------------------------------------------");
 console.log(`Add new certificate in Nested object`);
 teacher.degrees.certificates.certificate4 = "Data Science";
-console.log(teacher.degrees.certificates);
+console.table(teacher.degrees.certificates);
+
+console.log("--------------------------------------------------------------------");
+console.log(Object.entries(teacher)); 
+console.log(Object.keys(teacher));
+console.log(Object.values(teacher));
+
+console.log("--------------------------------------------------------------------");
+console.log(typeof teacher); // typeof

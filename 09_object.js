@@ -19,6 +19,9 @@ let objectSachin = {
 
     }
 }
+let isAvalible = "fullName" in objectSachin;
+console.log(isAvalible);
+
 console.log(Object.entries(objectSachin)); //
 console.log(Object.keys(objectSachin));
 console.log(Object.values(objectSachin));
