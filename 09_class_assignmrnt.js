@@ -5,21 +5,25 @@
 class Vehicle {
    name
      color
-     engineCC
+     engine
      price
-    constructor(name, color,engineCC, price)
+    constructor(name, color,engine, price)
     {         this.name = name;
        this.color = color;
-       this.engineCC = engineCC
+       this.engine = engine
         this.price = price;
     }
 
  }
-  let bike = new Vehicle("Pulser", "black", 125, "1.2lack");
- let car = new Vehicle("Ertiga","white", 750, "13lack" );
-
+  let bike = new Vehicle("Pulser", "black", "125cc", "1.2lack");
+ let car = new Vehicle("Ertiga","white", "750cc", "13lack" );
+ let bike2 = new Vehicle("Bullet 350","Black", "346cc", "1.4lack");
+let car2 = new Vehicle("Maruti800", "White","796cc", "2.19lack")
  console.log(bike);
  console.log(car);
+console.log(bike2);
+console.log(car2);
+
 console.log("*****************************************************************************************************");
 // Q2. Define class fpr College which must contain
 //  i. Properties or attributes or data members.
