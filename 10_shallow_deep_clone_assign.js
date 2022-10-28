@@ -1,6 +1,6 @@
 
 // Q1.Perform shallow clone on array_nums, update cloned array with values --> 55, 66 using push() and log original and cloned array on console
-console.log("---------------------------- Q1. Shallow clone ----------------");
+console.log("------------------------------ Q1. Shallow clone --------------------------------------");
 const array_nums = [20, 3, 4, 56, 90, 400, 49];
 console.log("Orignal array");
 console.log(array_nums);
@@ -13,12 +13,12 @@ console.log("Update cloned array");
 array_nums.push(55, 66);
 console.log(array_nums);
 
-console.log("---------------------------- Q2.Deep clone using spread operator [...] ------------------");
+console.log("------------------------------ Q2.Deep clone using spread operator [...] ------------------");
 // Q2. Perform deep clone using spread operator, Update original array i.e array_nums with values 10,25 at last position
 console.log("Orignal array");
 console.log(array_nums);
 
-let otherArray = [...array_nums];
+const otherArray = [...array_nums];
 array_nums.push(10);
 array_nums.push(25);
 console.log("Update orignal array ");
@@ -38,8 +38,8 @@ console.log("Merge or concat using spread operator");
 arrayConcat = [...array_nums, ...array_even];
 console.log(arrayConcat);
 
-console.log("==========================================================================================================");
-// Q.4 Creat the employee_info object as shown in snippet-->
+console.log("=======================================================================================================================================");
+// Q.4 Create the employee_info object as shown in snippet-->
 const employee_info = {
     emp_id: 27,
     emp_name: "John Doe",
