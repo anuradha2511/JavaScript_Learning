@@ -32,26 +32,29 @@ for (let index = 0; index < array_numbers.length; index++) {
 
    console.log("------------------- 5. all odd numbers  --------------------------------------");
 // Q 5. Find the all odd numbers and log on console
-var res = "";
+//var res = " ";
 for (let index = 0; index < array_numbers.length; index++) {
     if (array_numbers[index]%2!=0) 
     {
-        res = res + " " + array_numbers[index]
+        console.log(array_numbers[index]);
+
+       // res = res + " " + array_numbers[index]
     }
     
 }
-console.log(res);
 
 console.log("------------------- 6. all even positioned elements  -----------------------------");
-var result = " ";
+// Q 6. 
+//var result = " ";
 for (let index = 0; index < array_numbers.length; index++)
  {
     if (index%2==0) {
-        result = result + " " + array_numbers[index];
+        //result = result + " " + array_numbers[index];
+        console.log(array_numbers[index]);
+
     }
     
 }
-console.log(result);
 
 console.log("------------------- 7. all odd positioned elements -------------------------------");
 var result = " ";
@@ -76,15 +79,16 @@ console.log(sum);
 
 console.log("------------------- 9. multiple of 5  ---------------------------------------------");
 // Q 9. Find the numbers which are multiple of 5
-var mult= " ";
+//var mult= " ";
 for (let index = 0; index < array_numbers.length;  index++) {
     if (array_numbers[index]%5==0)
      {
-        mult = mult + " " + array_numbers[index];
+        console.log(array_numbers[index]);
+
+       // mult = mult + " " + array_numbers[index];
     }
     
 }
-console.log(mult);
 
 console.log("------------------- 10. Is number 115 available in given array ----------------------");
 // Q 10. Is number 115 available in given array
