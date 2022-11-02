@@ -31,7 +31,14 @@ console.log("==================================================");
 var arrayOfNumbers = [1, 3, 7, 8, 9, 3, 7];
 console.log("========== Resize array========");
 console.log(arrayOfNumbers.length);
-arrayOfNumbers.length = 3;
+arrayOfNumbers.length = 3; // 
+//arrayOfNumbers.length = 11; // we can increase the value
 console.log(arrayOfNumbers.length);
 console.log(arrayOfNumbers);
 console.log("========== Resize array========");
+
+var array = [1,2,3,4,5,6];
+console.log(array.length);
+array.length = 3;
+console.log(array.length);
+

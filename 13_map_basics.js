@@ -3,14 +3,19 @@ map.set(22, "Sachin");
 map.set(11, "Dravid");
 map.set(33, "Gaungully");
 map.set(77, "Sachin");
+
 console.log("================= Adding Duplicate key ===============");
 map.set(11, "Gautam");
+console.log(map);
+
+console.log("================= Adding Duplicate key and value ===============");
+map.set(33, "Gaungully"); 
 console.log(map);
 
 console.log("================= Retrieving value ===================");
 let value = map.get(33);
 console.log(value);
-console.log(map.get(99));
+console.log(map.get(99)); // this key is not available into the map
 
 console.log("================= Deleting record =====================");
 map.delete(11);
@@ -55,4 +60,5 @@ console.log("===================================================================
     
     }
     
+
     
