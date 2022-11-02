@@ -14,9 +14,15 @@
         window.sessionStorage.setItem("Kashi", "Pandharpur");
         window.sessionStorage.setItem("Emran", "Pune");
 
-        window.sessionStorage.removeItem("Kashi");
-        //window.sessionStorage.length;
+        console.log(window.sessionStorage.length);
 
+        window.sessionStorage.removeItem("Kashi");
+
+        console.log(window.sessionStorage.getItem("Annu"));
+        console.log(window.sessionStorage.key("Sachin"));
+
+        //window.sessionStorage.clear();
+        //console.log("Session Storage");
     </script>
 </body>
 
