@@ -1,10 +1,10 @@
-
-const arrayOfNumbers = ["Kamat", "Memon", "Nashpati", "Taimur", "Menon", "Kamat", "Andy", "Taimur"];
 console.log("------------------------- a.  Given array ------------------------------------------");
+const arrayOfNumbers = ["Kamat", "Memon", "Nashpati", "Taimur", "Menon", "Kamat", "Andy", "Taimur"];
 console.log(arrayOfNumbers);
 
-const arrayOfDuplicateElements = [...new Set(arrayOfNumbers)];
 console.log("----------------------- b. Remove Duplicate names ----------------------------------");
+// b. From the given array remove the duplicate names and the array on console after removing duplicate elements
+const arrayOfDuplicateElements = [...new Set(arrayOfNumbers)];
 console.log(arrayOfDuplicateElements);
 
 console.log("----------------------- c. Count Remove Duplicate elements--------------------------");
