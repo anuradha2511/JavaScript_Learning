@@ -9,3 +9,18 @@ function outer() {
 }
 let returnValue = outer();
 returnValue();
+
+
+console.log("--------------------------- practice -------------------------------");
+// var globalVariable = 100;
+// function outer(){
+// let outerFunVariable = 200;
+// let innerFun = function () {
+//     let innerFunVariable = 300;
+// console.log(innerFunVariable, outerFunVariable, globalVariable);
+// }
+// return innerFun;
+
+// }
+// let return_value = outer();
+// return_value();

@@ -14,22 +14,25 @@ function display() {
     console.log("display function");
 }
 
-setTimeout( display, 4000);
+setTimeout(display, 4000);
 
 setInterval(display, 2000);
 
+//console.log("--------------------------------------- practice -------------------------------");
+// function doAssign(callMe) {
+//     console.log("i am doing assign");
+//     callMe();
+// }
+
+// function copyAssign(){
+// console.log("Hey bro... thank you");
+// }
+// doAssign(copyAssign);
 
 
+// function aaa(){
+// console.log("aaa");
+// }
 
-
-
-
-
-
-
-function display() {
-    console.log("display function");
-}
-
-setInterval( display, 2000);
+// setInterval( aaa, 4000);
 
