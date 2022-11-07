@@ -19,8 +19,13 @@ array.forEach((currentValue, index) => {
     }
 });
 
+console.log("=========== Traversing set using forEach() ==============");
+const setOfNumbers = new Set(arrayNumbers);
+setOfNumbers.forEach( (value) => {
+console.log(value);
+});
 
-console.log("===== Traversing map using forEach() =====");
+console.log("============= Traversing map using forEach() ==============");
 let map = new Map();
 map.set(22, "Sachin");
 map.set(11, "Dravid");
