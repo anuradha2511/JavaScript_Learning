@@ -16,12 +16,14 @@ const emp_viny = new Employee(88, "Vinayak", "IT", 75000, "TCS");
 const emp_mahi = new Employee(99, "Mahesh", "HR", 85000, "Infy");
 
 const arrayEmployees = [emp_anil, emp_radha, emp_rishi, emp_sonali, emp_monika, emp_viny, emp_mahi];
-let wiproEmployees = arrayEmployees.filter((person) => {
-return .person.emp_company == "Wipro";
+ arrayEmployees.filter((employee) => {
+    if (employee.emp_company=="Wipro") {
+        console.log(employee.emp_id);
+  
+    }
 });
-console.log(wiproEmployees);
 
-console.log("------------2 --------------");
+console.log("-------------------- 2 ---------------------");
 const dept = arrayEmployees.filter((person) => {
     return person.emp_dept == "IT" || person.emp_dept=="HR";
 });
