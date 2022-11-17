@@ -54,5 +54,3 @@ for (let index = totalElements; index >= 0; index--) {
     
 }
 
-
-

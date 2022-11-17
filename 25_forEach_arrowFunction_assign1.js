@@ -54,5 +54,4 @@ array_numbers.forEach((currentValue, index) => {
     if (index%2!=0 && currentValue <  0) {
         console.log(currentValue, index);
     }
-})
-
+});

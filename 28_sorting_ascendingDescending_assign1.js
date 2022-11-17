@@ -47,13 +47,21 @@ console.log(largest);
 
 console.log("--------------------------------------------------------------------------------------------------");
 console.log("Q.6 Find the smallest number from the array ");
-smallest = 0;
-array_roll_numbers.forEach((element) => {
+var smallest = 0;
+array_roll_numbers.forEach((element, index) => {
     if (smallest > element) {
         smallest = element;
     }
 });
 console.log(smallest);
+
+var small = array_roll_numbers[0];
+for (let index = 1; index < array_roll_numbers.length; index++) {
+    if (array_roll_numbers[index] < small) {
+        small = array_roll_numbers[index]
+    }
+}
+console.log(small);
 
 console.log("--------------------------------------------------------------------------------------------------");
 console.log("Q.7 Remove duplicates from array ");

@@ -45,13 +45,12 @@ console.table(sbi_details);
 
 // Q.6 Traverse this merged object - step 5 using loop
 console.log("============================ Q.6 Traverse merged objects ====================================================");
-
-
  for (const index in sbi_details) {
     const element = sbi_details[index];
     console.log(element);
  }
 
+ 
 for (const key in sbi_details) {
     if (Object.hasOwnProperty.call(sbi_details, key)) {
         const element = sbi_details[key];

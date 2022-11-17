@@ -24,3 +24,8 @@ const arrayNew = array_numbers.map((element, index) => {
 });
 //console.log(` Given array : ${array_numbers}`);
 console.log(arrayNew);
+console.log("---------------------------------------------------------------------------------------");
+const arr = array_numbers.map((element) => {
+    return element + 5;
+});
+console.log(arr);
